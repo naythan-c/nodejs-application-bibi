@@ -1,0 +1,392 @@
+{
+    "hello":"hola",
+    "languageSet":"Idioma configurado en **{{lang}}** correctamente",
+    "channelCreated":"Canal Creado",
+    "channelDeleted":"Canal eliminado",
+    "noLogChannel":"El canal de registro se elimina. Vuelva a configurar el canal de registro",
+    "noLeaveChannel":"No dejar canal o no dejar mensaje",
+    "messageDeleted":"Mensaje Eliminado",
+    "channel":"Canal",
+    "message":"Mesanje",
+    "authorID":"ID de autor",
+    "editMessage":"Editar mensaje",
+    "before":"Antes de",
+    "after":"Después",
+    "roleAdded":"Rol Agregado",
+    "roleRemoved":"Rol Eliminado",
+    "nicknameChange":"Cambio de apodo",
+    "usernameChange":"Cambio de nombre de usuario",
+    "userAvatarChanged":"Cambio de avatar de usuario",
+    "roleGiven":"se le dio el rol de {{role}}",
+    "roleTakenBack":"fue eliminado del rol de {{role}}",
+    "helpCommand":{
+      "helpMenu":"Bibi Menú de ayuda",
+        "prefix":"Prefijo",
+        "category":{
+            "general":"General",
+            "brawlstars":"Brawl Stars",
+            "fun":"Divertida",
+            "economy":"Economía",
+            "games":"Juegos",
+            "emotes":"Emotes",
+            "filters":"Filtros",
+            "moderation":"Moderación",
+            "leveling":"Arrasamiento",
+            "configuration":"Configuración",
+            "links":{
+                "link":"Enlaces",
+                "inviteBibi":"Invitar a Bibi",
+                "joinOurServer":"Únase a nuestro servidor",
+                "website":"Sitio web",
+                "voteForBibi":"Vota por Bibi"
+            }
+        }
+    },
+    "brawlstars":{
+        "noteBrawlPost":"**Nota:**\n ```¡Esta publicación de pelea es un video! Haga clic en la URL para verla....```",
+        "bullMad":"Gesto de toro loco",
+        "bibiIsNotInTheBush":"¡Bibi no está en el monte!",
+        "bibiWasInTheBushAndDealt":"Bibi estaba en el monte y repartió",
+        "coltSob":"Emote de sollozo de Colt",
+        "mortisLaugh":"Gesto de risa de Mortis",
+        "spikeEmote":"Gesto de amor de Spike",
+        "shellyShrug":"Gesto de Encogimiento de hombros de Shelly",
+        "rateMe":{
+            "noob":"Novato",
+            "kindaNubNgl":"Un poco novato no va a mentir",
+            "amatuer":"Aficionada",
+            "prettyGood":"Bastante bueno",
+            "almostPro":"Casi Pro",
+            "thisGameIsTooEasy":"¡Este juego es demasiado fácil!",
+            "rating":"** 100% || No || Una calificación científica: ** \nTu calificación de jugador de Brawl Stars:",
+            "trophies":"** 100% || No || Una calificación científica: ** \nTus trofeos de Brawl Stars:"
+        }
+    },
+    "config":{
+        "invalidLanguage":"Ingrese un idioma válido.",
+        "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+        "menu":{
+          "configuration":"Configuración",
+          "mainMenu":"Bienvenido al menú de configuración de Bibi.\n\n:one: Desactivar configuración\n\n:two: Activar configuración\n\n:three: Restablecer prefijo\n\n:four: Establecer canal\n\n:five: Establecer idioma\n\n:six: Establecer mensaje\n\n:seven: Establecer prefijo\n\n:eight: Establecer tarjeta de bienvenida\n\n",
+          "disableConfigTitle":"Desactivar Config",
+          "disableConfigPage":"Dime qué quieres desactivar\n\n:one: Todo\n\n:two: Tarjeta de bienvenida\n\n:three: Mensaje de bienvenida\n\n:four: Dejar mensaje\n\n:five: Modlogs\n",
+          "enableConfigTitle":"Habilitar Config",
+          "enableConfigPage":"Dime qué quieres habilitar\n\n:one: Todo\n\n:two: Tarjeta de bienvenida\n\n:three: Mensaje de bienvenida\n\n:four: Dejar mensaje\n\n:five: Modlogs\n",
+          "setChannelTitle":"Establecer canal",
+          "setChannelPage":"Dime qué canal quieres configurar\n\n:one: Modlogs\n\n:two: Canal de bienvenida\n\n:three: Salir del canal\n\n:four: Canal de notificación de nivel\n",
+          "setLanguageTitle":"Elegir lenguaje",
+          "setLanguagePage":"Dime qué idioma quieres configurar\n\n:one: Inglés\n\n:two: Español\n\n:three: Portugués\n",
+          "setMessageTitle":"Establecer mensaje",
+          "setMessagePage":"Dime qué mensaje quieres configurar\n\n:one: Mensaje de bienvenida\n\n:two: Dejar mensaje\n",
+          "setPrefixTitle":"Establecer prefijo",
+          "setPrefixPage":"Seleccione el tipo de prefijo que desea \n\n:one: Sin espacio (por ejemplo: `bbhelp`)\n\n:two: Con spave (por ejemplo:`bb help`)\n",
+          "setWelcomeCardTitle":"Establecer tarjeta de bienvenida",
+          "setWelcomeCardPage":"Seleccione la tarjeta de bienvenida que desee\n\n:one: Purple\n\n:two: Red\n\n:three: Black\n\n:four: White\n"
+        },
+        "disableConfig":{
+            "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+            "disabled":"discapacitado",
+            "enabled":"habilitado",
+            "modLogs":"Los registros de mod son",
+            "welcomeCard":"La tarjeta de bienvenida es",
+            "welcomeMessage":"La tarjeta de bienvenida es",
+            "leaveMessage":"Dejar mensaje es",
+            "all":"Todas las configuraciones son",
+            "errorMessage":"Ingrese uno de los siguientes:"
+        },
+        "resetPrefix":{
+            "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+            "successMessage":"¡El prefijo se restableció correctamente!",
+            "errorMessage":"Ya tienes el prefijo predeterminado `bb`"
+        },
+        "setChannel":{
+            "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+            "errorMessage":"Ingrese uno de los siguientes:",
+            "mentionValidChannel":"Mencione un canal válido",
+            "logChannelSet":"Canal de registro establecido en",
+            "welcomeChannelSet":"Canal de bienvenida configurado en",
+            "leaveChannelSet":"Deje el canal configurado en ",
+            "levelNotificationChannelSet":"Canal de notificación de nivel establecido en",
+            "modlogsChannel":"Canal de Modlogs",
+            "welcomeChannel":"Canal de bienvenida",
+            "leaveChannel":"Salir del canal",
+            "levelNotificationChannel":"Canal de notificación de nivel",
+            "enterChannelName":"Ingrese el nombre del canal (etiquete el canal)"
+        },
+        "setMessage":{
+            "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+            "errorMessage":"Ingrese uno de los siguientes:",
+            "pleaseEnterAMessage":"Por favor ingrese un mensaje",
+            "welcome":"bienvenido",
+            "leave":"salir",
+            "successMessage":"Configure correctamente el mensaje {{welcomeLeave}} en:",
+            "setWelcomeMessage":"Establecer mensaje de bienvenida",
+            "enterWelcomeMessage":"Ingrese el mensaje de bienvenida",
+            "setLeaveMessage":"Establecer dejar mensaje",
+            "enterLeaveMessage":"Ingrese el mensaje de dejar"
+        },
+        "prefix":{
+          "setPrefixTitle":"Establecer prefijo",
+          "enterPrefix":"Ingrese el prefijo",
+          "setPrefix":"¡Prefijo establecido en ** {{prefix}} ** correctamente!"
+        },
+        "setWelcomeCard":{
+            "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Administrar gremio`",
+            "welcomeCardSet":"¡Configuraste la tarjeta de bienvenida de {{cardName}}!",
+            "wrongInput":"Entrada incorrecta!",
+            "errorMessage":"Ingrese uno de los siguientes: violet, red, black o white. \n\n ** Tarjetas de bienvenida Bibi disponibles: **"
+        }
+    },
+    "emotes":{
+        "animeHug":{
+            "name":"Ellos mismos",
+            "somethingWentWrong":"Algo salió mal",
+            "message":"{{username}} abrazos de anime {{name}}"
+        },
+        "attack":{
+            "name":"Ellos mismos",
+            "message":"{{username}} ataques {{name}}"
+        },
+        "boop":{
+            "name":"Ellos mismos",
+            "message":"{{username}} boops {{name}}"
+        },
+        "cry":{
+            "name":"a {{username}}",
+            "message":"{{username}} está llorando {{name}}"
+        },
+        "fistbump":{
+            "name":"Ellos mismos",
+            "message":"{{username}} fistbumps {{name}}"
+        },
+        "hug":{
+            "name":"Ellos mismos",
+            "message":"{{username}} abrazos {{name}}"
+        },
+        "kiss":{
+            "name":"Ellos mismos",
+            "somethingWentWrong":"Algo salió mal",
+            "dontKissYourself":"No te beses, eso es un poco raro.",
+            "message":"{{username}} besa a {{name}}"
+        },
+        "l":{
+            "name":"Ellos mismos",
+            "message":"{{username}} dice tomar la L a {{name}}"
+        },
+        "nuke":{
+            "name":"Ellos mismos",
+            "message":"{{username}} armas nucleares {{name}}"
+        },
+        "pat":{
+            "name":"Ellos mismos",
+            "somethingWentWrong":"Algo salió mal",
+            "message":"{{username}} acaricia {{name}}"
+        },
+        "please":{
+            "name":"Ellos mismos",
+            "message":"{{username}} suplica a {{name}}"
+        },
+        "poke":{
+            "name":"Ellos mismos",
+            "somethingWentWrong":"Algo salió mal",
+            "message":"{{username}} empuja {{name}}"
+        },
+        "slap":{
+            "name":"Ellos mismos",
+            "somethingWentWrong":"Algo salió mal",
+            "message":"{{username}} abofetea {{name}}"
+        },
+        "thonk":{
+            "name":"Ellos mismos",
+            "message":"{{username}} agradece a {{name}}"
+        },
+        "triggered":{
+            "name":"Ellos mismos",
+            "message":"{{username}} se activa en {{name}}"
+        },
+        "yeet":{
+            "name":"Ellos mismos",
+            "message":"{{username}} yeets {{name}}"
+        },
+        "lick":{
+            "name":"Ellos mismos",
+            "message":"{{username}} lamer {{name}}"
+        }
+    },
+    "fun":{
+       "8ball":{
+            "answers":[
+                 "Es cierto",
+                 "Es decididamente así",
+                 "Sin duda",
+                 "Sí definitivamente",
+                 "Puedes confiar en ello",
+                 "Como yo lo veo, sí",
+                 "Más probable",
+                 "Perspectivas buena",
+                 "Si",
+                 "Duh ya",
+                 "Señal apunta a sí",
+                 "Respuesta confusa, intenta otra vez.",
+                 "No se puede predecir ahora",
+                 "No cuentes con eso",
+                 "Mi respuesta es no",
+                 "Mis fuentes dicen que no",
+                 "Outlook no es tan bueno",
+                 "Grandes mentiras",
+                 "Muy dudoso",
+                 "100% no",
+                 "Parece un no",
+                 "Señal apunta a un no",
+                 "El futuro dice que no",
+                 "Sin duda no",
+                 "Pfft claramente no"
+           ],
+           "specifyYesNoQuestion":"¡Especifique una pregunta de sí / no!",
+           "prediction":"Predicción:"
+       },
+       "flip":{
+           "coinLandedOn":"Tu moneda acaba de aterrizar, en ",
+           "tails":"**CRUZ**!",
+           "heads":"**CABEZAS**!"
+       },
+       "meme":{
+           "noteMemePost":"** Nota: ** \n```¡Este meme es un video! ¡Haga clic en la URL para verla!```"
+       },
+       "reverse":"Por favor, especifique lo que quiere que revierta.",
+       "roll":"¡Sacaste una ** {{number}} **!",
+       "sayEmbed":"Por favor, especifique lo que quiere que le diga."
+   },
+   "general":{
+       "about":{
+           "links":{
+               "link":"Enlaces",
+               "inviteBibi":"Invitar a Bibi",
+               "joinOurServer":"Únase a nuestro servidor",
+               "website":"Sitio web",
+               "voteForBibi":"Vota por Bibi"
+           },
+           "about":"Acerca de",
+           "description":"¡Bibi es un bot social de Brawl Stars muy simple y multiusos con muchas características y comandos que siempre se mejoran y actualizan! \n\nSaber#1875 creó Bibi para satisfacer la necesidad de un bot de discordia de Brawl Stars social versátil. Bibi siempre se ha elaborado pensando en el usuario, por lo que se pone un gran énfasis en el diseño. Esperamos sinceramente que disfrutes de este bot, y si es así, ¡compártelo y vota por él!",
+           "credits":"Créditos"
+       },
+       "calc":{
+           "pleaseInputAValidCalcualtion":"Introduzca un cálculo.",
+           "sorryPleaseInputAValidCalcualtion":"Lo sentimos, ingrese un cálculo.",
+           "bigBrainBibiTime":"Big Brain Bibi Time :brain:",
+           "input":"Entrada",
+           "output":"Salida"
+       },
+       "discord":{
+           "supportServer":"Servidor de soporte",
+           "description":"** [Haga clic aquí](https://discord.gg/nCh7AwG) ** para unirse a nuestro servidor de soporte."
+       },
+       "invite":{
+           "inviteBibi":"Invitar a Bibi",
+           "description":"** [Haga clic aquí](https://discord.com/api/oauth2/authorize?client_id=713181335623041076&permissions=388166&scope=bot) ** para agregar el bot a su propio servidor."
+       },
+       "partners":"Socios Bibi",
+       "poll":{
+           "specifyAQuestionForThePoll":"¡Especifique una pregunta para la encuesta!",
+           "pollCreatedBy":"Encuesta creada por ",
+           "reactToVote":"Reaccionar para votar"
+       },
+       "serverInfo":{
+           "name":"Nombre",
+           "serverId":"ID del servidor",
+           "owner":"Propietaria",
+           "region":"Región",
+           "verificationLevel":"Nivel de verificación",
+           "members":"Miembros",
+           "created":"Creada"
+       },
+       "stats":{
+           "bibiStats":"Estadísticas de Bibi:",
+           "ping":"🏓 Silbido",
+           "servers":"🌐 Servidoras",
+           "users": "🧑 Total de Usuarias"
+       },
+       "userInfo":{
+           "online":"<:online:714600575630835754> En línea",
+           "idle":"<:idle:714600603531083808> Ociosa",
+           "dnd":"<:dnd:714600535013064704> No molestar",
+           "offline":"<:offline:714600647164690440> Desconectado / Invisible",
+           "yes":"<:bot:714604871114031184> Si",
+           "no":"<:user:714605265214767266> No",
+           "createdAt":"Creado en",
+           "joinedAt":"Se unió en",
+           "status":"Estado",
+           "bot":"Bot"
+       },
+       "vote":{
+           "voteForBibi":"¡Vota por Bibi!",
+           "description":"** [Haga clic aquí](https://top.gg/bot/713181335623041076/vote) ** para votar por Bibi!",
+           "footer":"¡Puedes votar cada 12 horas!"
+       }
+   },
+   "leveling":{
+       "disabelLeveling":{
+           "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Manage Guild`",
+           "levelSystemIsDisabledOnThisServer":"El sistema de nivelación está deshabilitado en este servidor",
+           "levelSystemDisabled":"Sistema de nivelación desactivado.",
+           "levelSystemAlreadyDisabled":"El sistema de nivelación ya está desactivado."
+       },
+       "enableLeveling":{
+           "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Manage Guild`",
+           "levelSystemIsDisabledOnThisServer":"El sistema de nivelación está deshabilitado en este servidor",
+           "levelSystemEnabled":"Sistema de nivelación habilitado.",
+           "levelSystemAlreadyEnabled":"El sistema de nivelación ya está habilitado."
+       },
+       "leaderboard":{
+        "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Manage Guild`",
+        "levelSystemIsDisabledOnThisServer":"El sistema de nivelación está deshabilitado en este servidor",
+        "doesntExist":"La tabla de clasificación no existe",
+        "levelLeaderboard":"Tabla de clasificación de nivel"
+    },
+       "level":{
+           "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Manage Guild`",
+           "levelSystemIsDisabledOnThisServer":"El sistema de nivelación está deshabilitado en este servidor",
+           "noLevelData":"Aún no existen datos de nivel en este servidor.",
+           "noXPEarned":"¡No ha ganado ninguna xp todavía!",
+           "rank":"Rango",
+           "level":"Nivel",
+           "currentXP":"XP actual"
+       },
+       "setLevelColor":{
+           "permissionRequired":"¡No puedes usar esto! Se requiere permiso: `Manage Guild`",
+           "levelSystemIsDisabledOnThisServer":"El sistema de nivelación está deshabilitado en este servidor",
+           "errorMessage":"Por favor ingrese una de las siguientes opciones: `bar`, `background`, `text`, o `circle`!",
+           "invalidHex":"¡Ingrese un código hexadecimal válido!",
+           "link":"[¡Haga clic aquí para elegir un color hexadecimal!](Https://htmlcolorcodes.com/color-picker/)",
+           "cardChange":"Tarjeta de nivel `{{colorType}}` establecida en `{{color}}`"
+       }
+   },
+   "moderation":{
+       "ban":{
+           "mentionUser":"Por favor mencione al usuario.",
+           "reason":"Sin motivo proporcionado",
+           "permissionRequired":"¡No puedes usar esto! Permiso requerido: `Ban Users`",
+           "cantBanYourself":"No puedes prohibirte a ti mismo.",
+           "cantBanMe":"No puedes prohibirme.",
+           "successfullyBanned":"Prohibido con éxito ** {{user.tag}} ** \nReason: {{reason}}",
+           "unableToBan":"No pude bloquear al miembro."
+       },
+       "kick":{
+           "mentionUser":"Por favor mencione al usuario.",
+           "reason":"Sin motivo proporcionado",
+           "permissionRequired":"¡No puedes usar esto! Permiso requerido: `Kick Users`",
+           "cantKickYourself":"No puedes patearte a ti mismo.",
+           "cantKickMe":"No puedes patearme.",
+           "successfullyKicked":"Expulsado con éxito ** {{user.tag}} ** \nReason: {{reason}}",
+           "unableToKick":"No pude patear al miembro."
+       },
+       "purge":{
+           "mentionUser":"Por favor mencione al usuario.",
+           "reason":"Sin motivo proporcionado",
+           "permissionRequired":"¡No puedes usar este comando!",
+           "specifyNumberOfMessagesToDelete":"Especifique cuántos mensajes desea eliminar.",
+           "canDeleteOnly100Messages":"Solo puede eliminar 100 mensajes a la vez.",
+           "deleteSuccessfull":"`{{args [1]}}` mensajes eliminados correctamente"
+       }
+   }
+}

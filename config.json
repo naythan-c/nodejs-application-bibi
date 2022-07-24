@@ -1,0 +1,14 @@
+{
+   "database":"bibi-testing",
+   "collection":{
+      "modConfig":"guildConfig",
+      "levellingSystem":"levelSystem",
+      "levelCard":"levelCard",
+      "economy":"economy",
+      "arena":"arena",
+      "analytics":"analytics",
+      "warn":"warn",
+      "reactionRoles":"reactionRoles"
+   },
+   "embedColor":"0xd305fa"
+}

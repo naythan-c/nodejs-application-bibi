@@ -1,0 +1,92 @@
+{
+    "warrior":{
+        "health":4000,
+        "movement":2,
+        "regenerate":20,
+        "emoji": "<:WarriorClass:743553963898568837>",
+        "price": 0,
+        "url":"https://cdn.discordapp.com/emojis/743553963898568837.png",
+        "weapons":{
+            "wrecker":{
+                "1":{
+                    "damage":1100,
+                    "range":3,
+                    "dampStat":10,
+                    "accuracy":80
+                }
+            }
+        }
+    },
+    "tank":{
+        "health":5800,
+        "movement":2,
+        "regenerate":15,
+        "emoji": "<:TankClass:743554007154556929>",
+        "price": 0,
+        "url":"https://cdn.discordapp.com/emojis/743554007154556929.png",
+        "weapons":{
+            "thunder":{
+                "1":{
+                    "damage":1300,
+                    "range":2,
+                    "dampStat":30,
+                    "accuracy":78
+                }
+            }
+        }
+    },
+    "assassin":{
+        "health":4000,
+        "movement":3,
+        "regenerate":12,
+        "emoji": "<:AssassinClass:743553938351063181>",
+        "price": 0,
+        "url":"https://cdn.discordapp.com/emojis/743553938351063181.png",
+        "weapons":{
+            "whisper":{
+                "1":{
+                    "damage":1200,
+                    "range":2,
+                    "dampStat":13,
+                    "accuracy":85
+                }
+            }
+        }
+    },
+    "marksman":{
+        "health":3200,
+        "movement":2,
+        "regenerate":25,
+        "emoji": "<:MarksmanClass:743553994127048754>",
+        "price": 0,
+        "url":"https://cdn.discordapp.com/emojis/743553994127048754.png",
+        "weapons":{
+            "torpedo":{
+                "1":{
+                    "damage":1400,
+                    "range":5,
+                    "dampStat":-30,
+                    "accuracy":95
+                }
+            }
+        }
+    },
+    "healer":{
+        "health":4400,
+        "movement":2,
+        "regenerate":40,
+        "emoji": "<:HealerClass:743553978880753795>",
+        "price": 0,
+        "url":"https://cdn.discordapp.com/emojis/743553978880753795.png",
+        "weapons":{
+            "radiance":{
+                "1":{
+                    "damage":900,
+                    "range":3,
+                    "dampStat":10,
+                    "accuracy":90
+                }
+            }
+        }
+    }
+}
